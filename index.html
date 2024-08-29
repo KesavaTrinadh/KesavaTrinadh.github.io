@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== UNICONS ===============-->
+        <link rel="Stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+        <!--=============== CDNJS ===============-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+        
+        <!--=============== CSS ===============-->
+        <link rel="Stylesheet" href="assets/css/style.css"/>
+        <title>Kesava Trinadh</title>
+    </head>
+    <body>  
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="index.html" class="nav__logo">Kesava <span>Trinadh</span></a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li><a href="#home" class="nav__link active-link">Home</a></li>
+
+                        <li><a href="#about" class="nav__link">About</a></li>
+
+                        <li><a href="#certifications" class="nav__link">Certifications</a></li>
+
+                        <li><a href="#portfolio" class="nav__link">Portfolio</a></li>
+
+                        <li><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ui uil-times"></i>
+                    </div>
+                </div>
+
+
+                <div class="nav__socials">
+
+                    <a href="https://github.com/KesavaTrinadh" target="new" class="nav__social-link">
+                        <!--<i class="uil uil-facebook-f"></i>-->
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/kesava-trinadh-dachepalli-6582b9247/" target="new" class="nav__social-link">
+                        <!--<i class="uil uil-facebook-f"></i>-->
+                        <!--<i class="fa-brands fa-linkedin"></i>-->
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+                </div>
+
+                <div class="nav__btns">
+                    <a href="#contact" class="nav__link-btn btn">Let's Talk</a>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-bars"></i>
+                    </div>
+                </div>
+
+            </nav>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content">
+                        <span class="home__subtitle">Welcome to my World!</span>
+                        <h1 class="home__title">
+                            Hello, I'm Kesava Trinadh, a <span>Data Scientist</span> excited about exploring new ideas and pushing boundaries.
+                        </h1>
+                    </div>
+
+                    <img src="assets/img/home2.jpg" alt="" class="home__img">
+                </div>
+            </section>
+
+            <!--=============== ABOUT ===============-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <img src="assets/img/home4.jpg" alt="" class="about__img">
+
+                    <div class="about__content">
+                        <h2 class="section__title">About Me</h2>
+
+                        <p class="about__description">
+                            A final-year student at VIT University Chennai with a strong foundation in deep learning and proficiency in TensorFlow. My passion for programming and web development, combined with expertise in machine learning, drives me to create innovative solutions in the tech space
+                        </p>
+
+                        <div class="tabs__btns">
+                            <span class="tabs__btn tab__active" data-target="#skills"
+                            >Skills</span>
+                            <span class="tabs__btn" data-target="#education"
+                            >Education</span>
+                        </div>
+
+                        <div class="tabs__content">
+                            <div class="tabs__item tab__active" data-content id="skills">
+                                <div class="tabs__data grid">
+                                    <p class="tabs__description">
+                                        <span>Programming</span>
+                                        <span>C, Java, Python</span>
+                                    </p>
+
+                                    <p class="tabs__description">
+                                        <span>Frameworks</span>
+                                        <span>HTML, CSS, JavaScript</span>
+                                    </p>
+
+                                    
+                                    <p class="tabs__description">
+                                        <span>Technologies</span>
+                                        <span>Data Science, Front-end Development, Machine Learning, Deep Learning</span>
+                                    </p>
+
+                                    <p class="tabs__description">
+                                        <span>Dev Tools</span>
+                                        <span>Git, Visual Studio Code, Github, Jupyter Notebook</span>
+                                    </p>
+
+                                    <p class="tabs__description">
+                                        <span>Libraries</span>
+                                        <span>Pandas, Numpy, Scikit Learn, TensarFlow, Matplotlib, Seaborn</span>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="tabs__item" data-content id="education">
+                                <div class="tabs__data grid">
+                                    <p class="tabs__description">
+                                        <span>VIT University</span> - B.Tech
+                                        <span>CGPA : 7.95</span>
+                                    </p>
+
+                                    <p class="tabs__description">
+                                        <span>Aditya Junior College</span> - Intermediate
+                                        <span>Percentage : 97.6%</span>
+                                    </p>
+
+                                    <p class="tabs__description">
+                                        <span>Aditya School</span> - X Class
+                                        <span>Percentage : 95%</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== CERTIFICATIONS ===============-->
+            <section class="certifications section" id="certifications">
+                <h2 class="section__title">My Certifications</h2>
+                    <p class="section__description">
+                        Check out my collection of certificates that show my skills in different areas. Each one represents an important achievement and highlights my commitment to learning and growing in my career.
+                    </p>
+
+                    <div class="certifications__container container grid">
+                        <div class="certifications__item">
+                            <i class="uil uil-graph-bar certifications__icon"></i>
+
+                            <h3 class="certifications__title">Machine Learning</h3>
+                            <p class="certifications__description">Externship at SmartInternz</p>
+                            <br>
+                            <a href="https://drive.google.com/file/d/10EBxresz0YXFQstcTwWsKQWap13sKGUW/view?usp=sharing" class="certifications__link" target="new">View</a>
+                        </div>
+
+                        <div class="certifications__item">
+                            <!--<i class="uil uil-graph-bar certifications__icon"></i>-->
+                            <i class="fa-solid fa-cloud certifications__icon"></i>
+
+                            <h3 class="certifications__title">Google Cloud</h3>
+                            <p class="certifications__description">Google Cloud Digital Leader</p>
+                            <br>
+                            <a href="https://drive.google.com/file/d/1yXv888XMd-d_5aRIESJGP7nt53ca3gE9/view?usp=sharing" class="certifications__link" target="new">View</a>
+                        </div>
+
+                        <div class="certifications__item">
+                            <!--<i class="uil uil-graph-bar certifications__icon"></i>-->
+                            <i class="fa-solid fa-tree certifications__icon"></i>
+
+                            <h3 class="certifications__title">NPTEL</h3>
+                            <p class="certifications__description">Forests and their Management</p>
+                            <br>
+                            <a href="https://drive.google.com/file/d/16FpmmDHm_D91WU2MklIZeGOig8E5fBNp/view?usp=sharing" class="certifications__link" target="new">View</a>
+                        </div>
+                    </div>
+                    <h3 class="section__title">
+                        <a href="https://drive.google.com/drive/folders/1xH2peL2-9fS93mYMV8wnA1b_hvgPJDto?usp=sharing" class="cert__link" id="cert__link" target="new">See All My Certifications</a>
+                    </h3>
+            </section>
+
+            <!--=============== PORTFOLIO ===============-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section__title">My Latest Projects</h2>
+                
+                <p class="section__description">
+                    Check out my collection of projects that show off my creativity and technical skills. Each one is a result of my passion for getting great results and solving real problems. Have a look at my portfolio to see how I use my skills in different areas and technologies.
+                </p>
+                
+
+                <div class="portfolio__container container grid">
+                    <div class="portfolio__item">
+                        <img src="assets/img/rainfall.jpeg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <p class="portfolio__subtitle">Machine Learning</p>
+                            <h3 class="portfolio__title">RainFall Prediction</h3>
+                            <p class="portfolio__description">RainFall Prediction using Machine Learning Techniques</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__item">
+                        <img src="assets/img/food.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <p class="portfolio__subtitle">Deep Learning</p>
+                            <h3 class="portfolio__title">Food Image Classification</h3>
+                            <p class="portfolio__description">Food Images Classification using Deep Learning Techniques</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__item">
+                        <img src="assets/img/attendance.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <p class="portfolio__subtitle">Software Engineering</p>
+                            <h3 class="portfolio__title">Attendance Marking System</h3>
+                            <p class="portfolio__description">Attendance Marking Management System using Python</p>
+                        </div>
+                    </div>
+
+                    <!--
+                    <h3 class="section__title">
+                        <a href="https://drive.google.com/drive/folders/1xH2peL2-9fS93mYMV8wnA1b_hvgPJDto?usp=sharing" class="port__link" id="port__link" target="new">See All My Projects</a>
+                    </h3>
+                    -->
+
+                </div>
+            </section>
+
+            <!--=============== CONTACT ===============-->
+            <section class="contact section" id="contact">
+                <div class="contact__container container grid">
+                    <div class="contact__content">
+                        <h2 class="section__title">Contact Me</h2>
+
+                        <p class="contact__description">
+                            Thank you for visiting my website! If you have questions, project suggestions, or just feel like chatting, I'm eager to hear from you. You'll find the contact info below. I'm thrilled to explore your concepts, collaborate on projects, and offer help. I aim to reply quickly, ensuring a quick and interactive exchange. Hope to connect with you soon!
+                            <br>
+                            <br>
+                            
+                            <i class="uil uil-phone">
+                            <!--    ::before -->
+                            </i>
+                            <a href="tel:+919484666777">+91-9484666777</a>
+
+                            <br>
+                            <i class="uil uil-envelope-alt">
+                            <!--    ::before -->
+                            </i>
+                            <a href="mailto:kesavatrinadh@gmail.com">kesavatrinadh@gmail.com</a> 
+                        </p>
+
+                        <form class="contact__form" id="contact-form">
+                            <div class="contact__form-input">
+                                <input type="text" name="name" placeholder="Your Name*" class="contact__input" id="contact-name">
+                            </div>
+
+                            <div class="contact__form-input">
+                                <input type="email" name="email" placeholder="Your E-Mail*" class="contact__input" id="contact-email">
+                            </div>
+
+                            <div class="contact__form-input">
+                                <input type="text" name="subject" placeholder="Write a Subject" class="contact__input" id="contact-subject">
+                            </div>
+
+                            <div class="contact__form-input">
+                                <textarea name="message" id="contact-message" class="contact__input textarea" placeholder="Your Message"></textarea>
+                            </div>
+
+                            <input type="submit" value="Submit" class="btn"/>
+
+                            <p class="error__message" id="error-message"></p>
+                        </form>
+                    </div>
+
+
+                    <img src="assets/img/home4.jpg" alt="" class="contact__img">
+
+                </div>
+            </section>
+        </main> 
+        
+        <!--=============== FOOTER ===============-->
+        <footer class="footer">
+            <div class="footer__container container grid">
+                <a href="index.html" class="footer__logo">Kesava <span>Trinadh</span></a>
+
+                <div class="footer__socials">
+
+                    <a href="https://github.com/KesavaTrinadh" target="new" class="footer__social-link">
+                        <!--<i class="uil uil-facebook-f"></i>-->
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/kesava-trinadh-dachepalli-6582b9247/" target="new" class="footer__social-link">
+                        <!--<i class="uil uil-facebook-f"></i>-->
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+                </div>
+
+                <p class="footer__copyright">&copy; 2024. All rights reserved.</p>
+            </div>
+        </footer>
+        
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-angle-up scrollup__icon"></i>
+        </a>
+        
+        <!--=============== EMAIL JS ===============-->
+        <!--<script src=""></script>-->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets\js\main.js"></script>
+    </body>
+</html>
